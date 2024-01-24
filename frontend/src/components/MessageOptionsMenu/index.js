@@ -73,6 +73,12 @@ const MessageOptionsMenu = ({ message, menuOpen, handleClose, anchorEl }) => {
           {i18n.t("messageOptionsMenu.reply")}
         </MenuItem>
 
+        <MenuItem onClick={handleForwardMessage}>
+          {i18n.t("messageOptionsMenu.forward")}
+          {/*Neste item eu gostaria de encaminhar a mensagem para outro contato. porém não estou sabendo ligar com esse processo. não sei por onde iniciar
+          poderiam me ajudar ? */}
+        </MenuItem>
+
       </Menu>
     </>
   );
