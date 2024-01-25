@@ -34,8 +34,8 @@ const MessageOptionsMenu = ({ message, menuOpen, handleClose, anchorEl }) => {
     handleClose();
   };
 
-  const handleForwardMessage = (e) => {
-    {console.log(message.value)}
+  const handleForwardMessage = () => { //teste para tentar
+   setForwardingMessage(message)
     handleClose();
   }
 

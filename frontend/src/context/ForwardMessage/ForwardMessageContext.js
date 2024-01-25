@@ -11,12 +11,12 @@ const ForwardMessageProvider = ({ children }) => {
 
 
   return (
-// 		<ForwardMessageContext.Provider
-//   value={{ forwardingMessage, setForwardingMessage  }}
-// >
-//   {children}
-// </ForwardMessageContext.Provider>
-console.log("teste app")
+		<ForwardMessageContext.Provider
+  value={{ forwardingMessage, setForwardingMessage  }}
+> 
+  {children}
+</ForwardMessageContext.Provider>
+
 	);
 };
 
